@@ -17,4 +17,8 @@ class DashboardController extends Controller
     public function manageuser(){
         return view('dashboard.manageuser');
     }
+
+    public function produk(){
+        return view('dashboard.produk');
+    }
 }
