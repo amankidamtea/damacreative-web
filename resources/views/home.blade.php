@@ -10,7 +10,7 @@
                      <img height="400" src="img/ilustrasi.svg" alt="">
                  </div>
                  <div class="col-md-4 p-4">
-                     <h2>Cari Desain Anda <br><span>di Dama Creative Aja</span></h2>
+                     <h2>Cari Desain Kamu <br><span>di Dama Creative Aja</span></h2>
                      <p>kami berusaha yang terbaik untuk anda</p>
                      <form class="d-flex p-2 shadow-lg">
                          <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
