@@ -36,6 +36,7 @@ Route::get('/seller-dashboard', function() {
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 Route::get('/profile', [DashboardController::class, 'profile'])->middleware('auth');
 Route::get('/manageuser', [DashboardController::class, 'manageuser'])->middleware('auth');
+Route::get('/produk', [DashboardController::class, 'produk'])->middleware('auth');
 
 Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
 Route::post('/login', [LoginController::class, 'authentication'])->name('login');

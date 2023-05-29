@@ -25,7 +25,7 @@
       </li><!-- End Manajemen User Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="/profile">
+        <a class="nav-link {{ Request::is('produk') ? '' : 'collapsed' }}" href="/produk">
           <i class="bi bi-cart"></i>
           <span>Produk Desain</span>
         </a>
